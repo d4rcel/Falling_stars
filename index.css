@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,22 @@ body{
     background: #111;
     min-height: 100vh;
     overflow: hidden;
+    color: white;
+    position: relative;
+}
+
+body::after{
+    position: absolute;
+    content: 'MERRY CHRISTMAS';
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Mountains of Christmas', serif;
+    font-weight: 700;
+    text-shadow: 0 0 5px #fff, 0 10px 20px #fff, 20px 0 50px #fff;
+
 }
 
 .star{
